@@ -3,6 +3,17 @@ version: '3.9'
 
 services:
 
+  pgadmin:
+    image: dpage/pgadmin4
+    restart: unless-stopped
+    volumes:
+      - pgAdmin:/var/lib/pgadmin
+    depends on:
+      - postgres
+    networks:
+      server2:
+        ipv4_address: 10.0.0.21
+
   postgres:
     image: postgres
     restart: unless-stopped
@@ -16,12 +27,3 @@ services:
     networks:
       server2:
         ipv4_address: 10.0.0.20
-
-  pgadmin:
-    image: dpage/pgadmin4
-    restart: unless-stopped
-    volumes:
-      - pgAdmin:/var/lib/pgadmin
-    networks:
-      server2:
-        ipv4_address: 10.0.0.21

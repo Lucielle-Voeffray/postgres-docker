@@ -27,3 +27,7 @@ services:
     networks:
       server2:
         ipv4_address: 10.0.0.20
+
+networks:
+    server2:
+        external: true

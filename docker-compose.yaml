@@ -1,0 +1,32 @@
+# Use postgres/example user/password credentials
+version: '3.9'
+
+services:
+  postgres:
+    image: postgres
+    restart: unless-stopped
+    # set shared memory limit when using docker-compose
+    shm_size: 128mb
+    volumes:
+    # Persistent storage
+      - postgres:/var/lib/postgresql/data
+    ports:
+      - 5432:5432
+    networks:
+      server:
+        ipv4_address: 10.0.0.20
+
+  pgadmin:
+    image: dpage/pgadmin4
+    restart: unless-stopped
+    volumes:
+      - pgAdmin:/var/lib/pgadmin
+    depends on:
+      - postgres
+    networks:
+      server:
+        ipv4_address: 10.0.0.21
+
+networks:
+    server:
+        external: true

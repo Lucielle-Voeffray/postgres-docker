@@ -8,7 +8,7 @@
                     <mxGeometry x="-110" y="280" width="860" height="670" as="geometry"/>
                 </mxCell>
                 <mxCell id="2" value="&lt;font color=&quot;#000000&quot;&gt;Docker&lt;br&gt;10.0.0.1&lt;/font&gt;" style="shape=mxgraph.cisco.routers.router;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="1" vertex="1">
-                    <mxGeometry x="230" y="520" width="40" height="33" as="geometry"/>
+                    <mxGeometry x="230" y="564.5" width="40" height="33" as="geometry"/>
                 </mxCell>
                 <mxCell id="3" value="&lt;font color=&quot;#080707&quot;&gt;Postgres&lt;br&gt;10.0.0.20&lt;/font&gt;" style="shape=mxgraph.cisco.storage.relational_database;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="1" vertex="1">
                     <mxGeometry x="420" y="320" width="40" height="33" as="geometry"/>

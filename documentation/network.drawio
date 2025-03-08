@@ -46,7 +46,7 @@
                         <mxPoint x="430" y="450" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="14" value="&lt;font color=&quot;#080707&quot;&gt;Homelab 2.0&lt;br&gt;Autrice: Lucielle Voeffray&lt;br&gt;Creation: 2024.12.06&lt;br&gt;Version: 1.1&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="1" vertex="1">
+                <mxCell id="14" value="&lt;font color=&quot;#080707&quot;&gt;Homelab 2.0&lt;br&gt;Autrice: Lucielle Voeffray&lt;br&gt;Creation: 2024.12.06&lt;br&gt;Version: 1.5&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="510" y="791" width="220" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="16" value="&lt;font color=&quot;#000000&quot;&gt;coturn&lt;br&gt;10.0.0.30&lt;br&gt;turn.lucielle.ch&lt;br&gt;&lt;/font&gt;" style="shape=mxgraph.cisco.servers.standard_host;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="1" vertex="1">
@@ -62,6 +62,15 @@
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="490" y="660" as="sourcePoint"/>
                         <mxPoint x="540" y="610" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="23" value="&lt;font color=&quot;#000000&quot;&gt;Matrix-Admin&lt;br&gt;10.0.0.13&lt;br&gt;matrix.admin.local&lt;/font&gt;" style="shape=mxgraph.cisco.servers.standard_host;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="320" width="43" height="62" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="" style="endArrow=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#000000;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2" target="23">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="280" y="591" as="sourcePoint"/>
+                        <mxPoint x="439" y="363" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
             </root>

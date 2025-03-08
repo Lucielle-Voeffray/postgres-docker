@@ -52,12 +52,6 @@
                 <mxCell id="16" value="&lt;font color=&quot;#000000&quot;&gt;coturn&lt;br&gt;10.0.0.30&lt;br&gt;turn.lucielle.ch&lt;br&gt;&lt;/font&gt;" style="shape=mxgraph.cisco.servers.standard_host;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="1" vertex="1">
                     <mxGeometry x="415" y="790" width="43" height="62" as="geometry"/>
                 </mxCell>
-                <mxCell id="17" value="" style="endArrow=none;html=1;fontColor=#000000;strokeColor=#000000;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="16" target="2" edge="1">
-                    <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="490" y="660" as="sourcePoint"/>
-                        <mxPoint x="540" y="610" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
                 <mxCell id="19" value="&lt;font color=&quot;#000000&quot;&gt;Matrix-MAS&lt;br&gt;10.0.0.11&lt;br&gt;auth.chat.lucielle.ch&lt;br&gt;&lt;/font&gt;" style="shape=mxgraph.cisco.servers.standard_host;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="1" vertex="1">
                     <mxGeometry x="228.5" y="770" width="43" height="62" as="geometry"/>
                 </mxCell>

@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="CNsxpNcKMglIdtJpuqTv" name="Page-1">
-        <mxGraphModel dx="1828" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="2620" dy="1139" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -58,14 +58,8 @@
                         <mxPoint x="540" y="610" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="19" value="&lt;font color=&quot;#000000&quot;&gt;Matrix-MAS&lt;br&gt;10.0.0.11&lt;br&gt;auth.lucielle.ch&lt;br&gt;&lt;/font&gt;" style="shape=mxgraph.cisco.servers.standard_host;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="1" vertex="1">
+                <mxCell id="19" value="&lt;font color=&quot;#000000&quot;&gt;Matrix-MAS&lt;br&gt;10.0.0.11&lt;br&gt;auth.chat.lucielle.ch&lt;br&gt;&lt;/font&gt;" style="shape=mxgraph.cisco.servers.standard_host;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="1" vertex="1">
                     <mxGeometry x="228.5" y="770" width="43" height="62" as="geometry"/>
-                </mxCell>
-                <mxCell id="20" value="" style="endArrow=none;html=1;strokeColor=#000000;fontColor=#000000;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="19" target="2" edge="1">
-                    <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="490" y="660" as="sourcePoint"/>
-                        <mxPoint x="540" y="610" as="targetPoint"/>
-                    </mxGeometry>
                 </mxCell>
                 <mxCell id="21" value="&lt;font color=&quot;#000000&quot;&gt;Cinny&lt;br&gt;10.0.0.12&lt;br&gt;cinny.lucielle.ch&lt;br&gt;&lt;/font&gt;" style="shape=mxgraph.cisco.servers.standard_host;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="1" vertex="1">
                     <mxGeometry x="70" y="708" width="43" height="62" as="geometry"/>
